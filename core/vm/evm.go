@@ -630,3 +630,6 @@ func (evm *EVM) GetVMContext() *tracing.VMContext {
 		StateDB:     evm.StateDB,
 	}
 }
+func (evm *EVM) GetDepth() int {
+	return evm.depth
+}
