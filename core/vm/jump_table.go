@@ -1093,6 +1093,7 @@ func newFrontierInstructionSet() JumpTable {
 			tbl[i] = &operation{execute: opUndefined, maxStack: maxStack(0, 0), undefined: true}
 		}
 	}
+	enable3855(&tbl) // PUSH0 instruction
 
 	return validate(tbl)
 }
