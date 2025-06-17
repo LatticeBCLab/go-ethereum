@@ -47,8 +47,8 @@ github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/DataDog/zstd v1.4.5 h1:EndNeuB0l9syBZhut0wns3gV1hL8zX8LIu6ZiVHWLIQ=
 github.com/DataDog/zstd v1.4.5/go.mod h1:1jcaCB/ufaK+sKp1NBhlGmpz41jOoPQ35bpF36t7BBo=
-github.com/LatticeBCLab/crypto v0.0.0-20250416070624-b09804233e37 h1:avr43+LcLFrr4swq38Z8sQpQdFx2pit5BQ0uK55YWZM=
-github.com/LatticeBCLab/crypto v0.0.0-20250416070624-b09804233e37/go.mod h1:7bOnABT+2dB0L3B/wNlo+PzW9O8czS218iCxHxsGAH4=
+github.com/LatticeBCLab/crypto v0.0.0-20250415091401-7184485f066e h1:e8ogzrlyNVp8GXoZGEROyI6jbMdXBJefNO0n2Cbr6DE=
+github.com/LatticeBCLab/crypto v0.0.0-20250415091401-7184485f066e/go.mod h1:Mj+cZbxLx4zkSF8daxhq8Ksl5JBGCrzjxw8vchbNFk4=
 github.com/Microsoft/go-winio v0.6.2 h1:F2VQgta7ecxGYO8k3ZZz3RS8fVIXVxONVUPlNERoyfY=
 github.com/Microsoft/go-winio v0.6.2/go.mod h1:yd8OoFMLzJbo9gZq8j5qaps8bJ9aShtEA8Ipt1oGCvU=
 github.com/StackExchange/wmi v1.2.1 h1:VIkavFPXSjcnS+O8yTq7NI32k0R5Aj+v39y29VYDOSA=
@@ -522,8 +522,8 @@ github.com/yuin/goldmark v1.1.27/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9de
 github.com/yuin/goldmark v1.1.32/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.2.1/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.4.13/go.mod h1:6yULJ656Px+3vBD8DxQVa3kxgyrAnzto9xy5taEt/CY=
-gitlab.zlattice.top/zlattice/common v0.0.0-20250416070521-14b653b07ebb h1:Bv3/OzvlOOPq4W8Uaufqk55x7q4HM5FqaR6B4CCcuwY=
-gitlab.zlattice.top/zlattice/common v0.0.0-20250416070521-14b653b07ebb/go.mod h1:mSJz6iIpBAmVnTxn3kQZ0gzMdJ0XcBf+QkQOiIgjkp4=
+gitlab.zlattice.top/zlattice/common v0.0.0-20250415074746-a1f1d6185b84 h1:hncHm0gl0VBoMFzC9r6UNxZR0sHiWZPmLvy/7YoUXy4=
+gitlab.zlattice.top/zlattice/common v0.0.0-20250415074746-a1f1d6185b84/go.mod h1:mSJz6iIpBAmVnTxn3kQZ0gzMdJ0XcBf+QkQOiIgjkp4=
 go.opencensus.io v0.21.0/go.mod h1:mSImk1erAIZhrmZN+AvHh14ztQfjbGwt4TtuofqLduU=
 go.opencensus.io v0.22.0/go.mod h1:+kGneAE2xo2IficOXnaByMWTGM9T73dGwxeWcUqIpI8=
 go.opencensus.io v0.22.2/go.mod h1:yxeiOL68Rb0Xd1ddK5vPZ/oVn4vY4Ynel7k9FzqtOIw=
