@@ -425,11 +425,11 @@ func (evm *EVM) create(caller common.Address, code []byte, gas uint64, value *ui
 	if !evm.Context.CanTransfer(evm.StateDB, caller, value) {
 		return nil, common.Address{}, gas, ErrInsufficientBalance
 	}
-	nonce := evm.StateDB.GetNonce(caller)
-	if nonce+1 < nonce {
-		return nil, common.Address{}, gas, ErrNonceUintOverflow
-	}
-	evm.StateDB.SetNonce(caller, nonce+1, tracing.NonceChangeContractCreator)
+	//nonce := evm.StateDB.GetNonce(caller)
+	//if nonce+1 < nonce {
+	//	return nil, common.Address{}, gas, ErrNonceUintOverflow
+	//}
+	//evm.StateDB.SetNonce(caller, nonce+1, tracing.NonceChangeContractCreator)
 
 	// Charge the contract creation init gas in verkle mode
 	if evm.chainRules.IsEIP4762 {
