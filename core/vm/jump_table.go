@@ -1094,7 +1094,7 @@ func newFrontierInstructionSet() JumpTable {
 		}
 	}
 	enable3855(&tbl) // PUSH0 instruction
-
+	enable5656(&tbl)
 	return validate(tbl)
 }
 
